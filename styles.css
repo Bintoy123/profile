@@ -6,3 +6,7 @@ img{
   border-radius: 100%;
   border: 3px solid gray;
 }
+hr{
+  background: black;
+  border: none;
+}

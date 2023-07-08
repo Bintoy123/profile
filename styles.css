@@ -3,6 +3,11 @@ body{
   font-family: 'Roboto', sans-serif;
   background: #d3d3d3;
 }
+div{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 img{
   border-radius: 100%;
   border: 3px solid orange;

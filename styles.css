@@ -3,6 +3,9 @@ body{
   font-family: 'Roboto', sans-serif;
   background: #d3d3d3;
 }
+h1{
+  display: inline-block;
+}
 div{
   display:flex;
   justify-content: center;

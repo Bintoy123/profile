@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head id="head">
     <meta chartset="UTF-8">
     <title>Vincient's resume</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
     <div>
@@ -16,6 +15,7 @@
     <hr />
     <h2>Summary</h2>
     <p>I am a hardworking and dedicated individual with exprience in Roof Measuring and Lidar Annotation </p>
+    <button onclick="addCSS()">Click Me</button>
     <hr>
     <h2>Education</h2>
     <ul>
@@ -70,5 +70,19 @@ business name, address, and phone number.</li>
     <footer>
       <p>© Vincient Degala. All rights reserved.</p>
     </footer>
+    <script>
+      let counter = 0
+      function addCSS() {
+         count+=1
+         if (count % 2 == 0){
+           docmunet.getElementById("head").innerHTML = '  <title>Vincient's resume</title>  \n<link rel="stylesheet" href="./styles.css">'
+          } else {
+            docmuent.getElementById("head").innerHTML =  '  <title>Vincient's resume</title>'
+          }  
+      }
+     
+       
+   
+    </script>
   </body>
 </html>

@@ -74,10 +74,11 @@ business name, address, and phone number.</li>
       let counter = 0
       function addCSS() {
          counter++
-         if (counter % 2 == 0){
-           docmunet.getElementById("head").innerHTML = '  <title>Vincient resume</title>  \n<link rel="stylesheet" href="./styles.css">'
+         if (counter % 2 !== 0){
+          document.getElementById("head").innerHTML = '  <title>Example HTML Website</title> \n<link rel="stylesheet" href="./styles.css" />'
           } else {
-            docmuent.getElementById("head").innerHTML =  '  <title>Vincient resume</title>'
+            
+            document.getElementById("head").innerHTML =  '  <title>Vincient resume</title>'
           }  
       }
     </script>

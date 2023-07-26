@@ -3,6 +3,11 @@ body{
   font-family: 'Poppins', sans-serif;
   background: #d3d3d3;
 }
+ul{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 h1{
   display: inline-block;
 }

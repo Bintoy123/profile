@@ -3,7 +3,7 @@ body{
   font-family: 'Poppins', sans-serif;
   background: #d3d3d3;
 }
-header ul{
+.navbar ul{
   display:flex;
   justify-content: space-between;
   align-items: center;

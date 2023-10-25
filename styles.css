@@ -3,6 +3,11 @@ body{
   font-family: 'Poppins', sans-serif;
   background: #d3d3d3;
 }
+header{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .navbar ul{
   display:flex;
   align-items: center;

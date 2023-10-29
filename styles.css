@@ -9,6 +9,7 @@ body{
   justify-content: space-between;
   background-color: white;
   height: 30px;
+  wdith:100vw;
 }
 .navbar ul{
   display:flex;

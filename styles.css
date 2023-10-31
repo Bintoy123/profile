@@ -11,11 +11,12 @@ body{
   height: 30px;
   wdith:100vw;
 }
-.navbar ul{
+.navbar .topnav{
   display:flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .navbar p{
   font-size: 1.5rem;
 }
